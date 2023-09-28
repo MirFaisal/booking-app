@@ -1,0 +1,30 @@
+{% extends "layouts/base-new.html" %}
+
+{% load i18n %}
+
+{% block head_style %}
+<link rel="stylesheet" href="/static/plugins/intl-tel-input/css/intlTelInput.css">
+<link rel="stylesheet" href="/static/css/footer.css">
+{% endblock head_style %}
+
+{% block header %}
+{% include "layouts/header.html" %}
+{% endblock header %}
+
+{% block content %}
+<main class="main">
+    <div class="centering-wrap d-flex justify-content-center">
+        <div class="login-form">
+            <!--latest offers-->
+            <header class="s-title">
+                <h2>My Bookings</h2>
+            </header>
+        </div>
+    </div>
+</main>
+
+{% endblock content %}
+
+{% block inline_javascript %}
+
+{% endblock inline_javascript %}
